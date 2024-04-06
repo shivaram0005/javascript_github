@@ -27,3 +27,4 @@ const {name} = User
 const {name:n , age:a} = User;
 console.log(a)
 
+

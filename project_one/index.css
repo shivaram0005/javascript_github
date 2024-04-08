@@ -1,0 +1,27 @@
+.parent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.box{
+    margin: 2px;
+    width: 150px;
+    height: 150px;
+    border-radius: 2px;
+    border: 2px solid #212121;
+    
+}
+.red{
+    background-color: red;
+}
+.green{
+    background-color: green;
+}
+.blue{
+    background-color: blue;
+}
+.violet{
+    background-color: violet;
+} 
+

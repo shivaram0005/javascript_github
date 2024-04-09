@@ -30,7 +30,10 @@ buttons.forEach(function (button)  {
             body.style.backgroundColor = e.target.id
         }else if(e.target.id === 'green'){
             body.style.backgroundColor = e.target.id
-        }else{
+        }else if(e.target.id === 'purple'){
+            body.style.backgroundColor = e.target.id
+        }
+        else{
             body.style.backgroundColor = e.target.id
         }
 

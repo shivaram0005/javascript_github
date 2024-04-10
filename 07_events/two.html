@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: #212121;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <h1>Chai aur code</h1>
+    <button id="stop"> Stop</button>
+</body>
+    <script>
+        
+        // const sayName = function(){
+        //     console.log('shivaram')
+        // }
+
+        // document.querySelector('h1').innerHTML = "best js series"
+       const changeme =  setTimeout(() => {
+            document.querySelector('h1').innerHTML = 'best js series'
+        }, 2000);
+
+        // clearTimeout(changeme)
+        document.querySelector('#stop').addEventListener('click', () => {
+            clearTimeout(changeme)
+            console.log("stopped")
+        })
+
+        // setTimeout(sayName, 2000);
+        // setTimeout(() => {
+        //     // console.log("shivaram")
+        // },2000)
+
+
+
+      
+
+
+    </script>
+</html>
